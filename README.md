@@ -5,7 +5,7 @@ The above program downloads newly released movies from movierulz website (pirate
 
 you can schedule the program to run every day by using crontab in ubuntu  , so that you don't need to run program manually every time when new movie gets released. 
 
-add this line in "crontab -e"
+add below two lines in "crontab -e"
 >00 * * * * screen -dmS movierulz_download ipython3 addnewmovies.py  # This program is for downloading new movies from movierulz website.
 
 >@reboot screen -dmS monitor_directory ipython3 monitor.py #This program monitors the given library , if a new movie is added then it preprocess movie names, converts and adds it to plex library 
