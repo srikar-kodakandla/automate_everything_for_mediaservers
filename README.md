@@ -7,6 +7,7 @@ you can schedule the program to run every day by using crontab in ubuntu  , so t
 
 add this line in "crontab -e"
 >00 * * * * screen -dmS movierulz_download ipython3 addnewmovies.py  # This program is for downloading new movies from movierulz website.
+
 >@reboot screen -dmS monitor_directory ipython3 monitor.py #This program monitors the given library , if a new movie is added then it preprocess movie names, converts and adds it to plex library 
 
 With the above program , when ever a new movie is released in movierulz , it automatically downloads , converts  and adds to plex media server.after running that program in cronjob , just sitback and turn on tv , open plex app , enjoy new movies . 
