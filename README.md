@@ -11,3 +11,5 @@ add below two lines in "crontab -e"
 >@reboot screen -dmS monitor_directory ipython3 monitor.py #This program monitors the given library , if a new movie is added then it preprocess movie names, converts and adds it to plex library 
 
 With the above program , when ever a new movie is released in movierulz , it automatically downloads , converts  and adds to plex media server.after running that program in cronjob , just sitback and turn on tv , open plex app , enjoy new movies . 
+
+####This program is only for educational purpose.
