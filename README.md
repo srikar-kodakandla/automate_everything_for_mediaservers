@@ -13,4 +13,4 @@ add below two lines in "crontab -e"
 With the above program , when ever a new movie is released in movierulz , it automatically downloads , converts  and adds to plex media server.after running that program in cronjob , just sitback and turn on tv , open plex app , enjoy new movies . 
 
 
-I implemented this program just for fun .This software is only for educational purpose. I am against pirated websites.
+### I implemented this program just for fun .This program is only for educational purpose. I am against pirated websites.
